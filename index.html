@@ -1,0 +1,1732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K.C Baker's - Crafting Sweet Memories</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <meta name="description" content="Your description">
+  <meta name="keywords" content="bakery, cakes, pastries">
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav-container">
+      <div class="logo-container">
+        <i class="fas fa-birthday-cake logo-icon"></i>
+        <div>
+          <h1 class="logo-text">K.C Baker's</h1>
+          <p class="slogan">Crafting Sweet Memories</p>
+        </div>
+      </div>
+
+      <ul class="nav-menu">
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#custom-order" class="nav-link">Custom Orders</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="anniversary-badge">
+        <span class="years">3</span>
+        <span class="years-text">Years of Sweet Journey</span>
+      </div>
+      <h1 class="hero-title">
+        Artisanal Baking <span class="highlight">Perfection</span>
+      </h1>
+      <p class="hero-subtitle">Crafting moments of joy since 2021</p>
+      <p class="founder-text">By ******</p>
+      <div class="hero-cta">
+        <a href="#order" class="cta-button primary">Order Now</a>
+        <a href="#menu" class="cta-button secondary">Explore Menu</a>
+      </div>
+      <div class="achievement-cards">
+        <div class="achievement-card">
+          <i class="fas fa-birthday-cake"></i>
+          <h3>1000+</h3>
+          <p>Custom Cakes</p>
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-heart"></i>
+          <h3>500+</h3>
+          <p>Happy Customers</p>
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-award"></i>
+          <h3>25+</h3>
+          <p>Cake Varieties</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="mouse"></div>
+      <p>Scroll to Explore</p>
+    </div>
+  </section>
+
+  <section class="products-section" id="products">
+    <div class="section-header">
+      <span class="section-subtitle">Our Collection</span>
+      <h2 class="section-title">Featured Products</h2>
+      <div class="title-separator">
+        <span class="separator-line"></span>
+        <i class="fas fa-heart separator-icon"></i>
+        <span class="separator-line"></span>
+      </div>
+    </div>
+
+    <div class="category-tabs">
+      <button class="tab-btn active" data-category="all">
+        <i class="fas fa-th-large"></i>
+        <span>All Items</span>
+      </button>
+      <button class="tab-btn" data-category="cakes">
+        <i class="fas fa-birthday-cake"></i>
+        <span>Cakes</span>
+      </button>
+      <button class="tab-btn" data-category="pastries">
+        <i class="fas fa-cookie"></i>
+        <span>Pastries</span>
+      </button>
+      <button class="tab-btn" data-category="cookies">
+        <i class="fas fa-cookie-bite"></i>
+        <span>Cookies</span>
+      </button>
+      <button class="tab-btn" data-category="hampers">
+        <i class="fas fa-gift"></i>
+        <span>Gift Hampers</span>
+      </button>
+    </div>
+
+    <div class="products-container">
+      <!-- Cakes -->
+      <div class="product-card" data-category="cakes">
+        <div class="product-image">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Chocolate Paradise Cake" />
+          <div class="product-badges">
+            <span class="bestseller-badge">Bestseller</span>
+          </div>
+          <div class="quick-actions">
+            <button class="quick-action-btn wishlist-btn" title="Add to Wishlist">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="quick-action-btn share-btn" title="Share">
+              <i class="fas fa-share-alt"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">Chocolate Paradise Cake</h3>
+          <p class="product-description">
+            Rich chocolate layers with premium ganache
+          </p>
+          <div class="product-meta">
+            <div class="price-rating">
+              <span class="product-price">₹899</span>
+              <div class="rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(128)</span>
+              </div>
+            </div>
+            <a href="#" class="order-now-btn">
+              <span>Order Now</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pastries -->
+      <div class="product-card" data-category="pastries">
+        <div class="product-image">
+          <img src="https://images.unsplash.com/photo-1603532648955-039310d9ed75" alt="Classic Eclair" />
+          <div class="quick-actions">
+            <button class="quick-action-btn wishlist-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="quick-action-btn share-btn">
+              <i class="fas fa-share-alt"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">Classic Eclair</h3>
+          <p class="product-description">
+            Choux pastry filled with vanilla cream
+          </p>
+          <div class="product-meta">
+            <div class="price-rating">
+              <span class="product-price">₹129</span>
+              <div class="rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(85)</span>
+              </div>
+            </div>
+            <a href="#" class="order-now-btn">
+              <span>Order Now</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cookies -->
+      <div class="product-card" data-category="cookies">
+        <div class="product-image">
+          <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e" alt="Premium Cookie Box" />
+          <div class="product-badges">
+            <span class="special-badge">New</span>
+          </div>
+          <div class="quick-actions">
+            <button class="quick-action-btn wishlist-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="quick-action-btn share-btn">
+              <i class="fas fa-share-alt"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">Premium Cookie Box</h3>
+          <p class="product-description">
+            Assorted handcrafted cookies (12 pcs)
+          </p>
+          <div class="product-meta">
+            <div class="price-rating">
+              <span class="product-price">₹449</span>
+              <div class="rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(237)</span>
+              </div>
+            </div>
+            <a href="#" class="order-now-btn">
+              <span>Order Now</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gift Hampers -->
+      <div class="product-card" data-category="hampers">
+        <div class="product-image">
+          <img src="https://images.unsplash.com/photo-1607083206869-4c7672e72a8a" alt="Deluxe Gift Hamper" />
+          <div class="product-badges">
+            <span class="special-badge">Limited</span>
+          </div>
+          <div class="quick-actions">
+            <button class="quick-action-btn wishlist-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="quick-action-btn share-btn">
+              <i class="fas fa-share-alt"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">Deluxe Gift Hamper</h3>
+          <p class="product-description">
+            Curated selection of premium treats
+          </p>
+          <div class="product-meta">
+            <div class="price-rating">
+              <span class="product-price">₹1499</span>
+              <div class="rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(92)</span>
+              </div>
+            </div>
+            <a href="#" class="order-now-btn">
+              <span>Order Now</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- More Cakes -->
+      <div class="product-card" data-category="cakes">
+        <div class="product-image">
+          <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636" alt="Red Velvet Dream" />
+          <div class="quick-actions">
+            <button class="quick-action-btn wishlist-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="quick-action-btn share-btn">
+              <i class="fas fa-share-alt"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">Red Velvet Dream</h3>
+          <p class="product-description">
+            Classic red velvet with cream cheese
+          </p>
+          <div class="product-meta">
+            <div class="price-rating">
+              <span class="product-price">₹799</span>
+              <div class="rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(156)</span>
+              </div>
+            </div>
+            <a href="#" class="order-now-btn">
+              <span>Order Now</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- More Pastries -->
+      <div class="product-card" data-category="pastries">
+        <div class="product-image">
+          <img src="https://images.unsplash.com/photo-1612203985729-70726954388c" alt="Danish Pastry Box" />
+          <div class="quick-actions">
+            <button class="quick-action-btn wishlist-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="quick-action-btn share-btn">
+              <i class="fas fa-share-alt"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">Danish Pastry Box</h3>
+          <p class="product-description">
+            Assorted fresh Danish pastries (6 pcs)
+          </p>
+          <div class="product-meta">
+            <div class="price-rating">
+              <span class="product-price">₹399</span>
+              <div class="rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(178)</span>
+              </div>
+            </div>
+            <a href="#" class="order-now-btn">
+              <span>Order Now</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Load More Button -->
+    <div class="load-more-container">
+      <button class="load-more-btn">
+        <span>Load More</span>
+        <i class="fas fa-redo"></i>
+      </button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="about-container">
+      <!-- Story Side -->
+      <div class="story-side">
+        <div class="section-header">
+          <span class="section-subtitle">Our Story</span>
+          <h2 class="section-title">The Sweet Beginning</h2>
+          <div class="title-separator">
+            <span class="separator-line"></span>
+            <i class="fas fa-heart separator-icon"></i>
+            <span class="separator-line"></span>
+          </div>
+        </div>
+        <div class="story-content">
+          <p class="founding-date">
+            <i class="fas fa-star"></i>
+            Founded on September 30, 2021
+          </p>
+          <p class="story-text">
+            K.C Baker's was born from a passion for creating moments of pure joy through the art of baking. What started
+            as a birthday dream on September 30, 2021, has blossomed into a haven for artisanal baking excellence.
+          </p>
+          <p class="story-text">
+            Every creation that leaves our kitchen carries with it the warmth of home and the precision of professional
+            craftsmanship. We believe in using only the finest ingredients, time-honored techniques, and adding a dash
+            of innovation to create memorable sweet experiences.
+          </p>
+          <div class="milestone-cards">
+            <div class="milestone-card">
+              <i class="fas fa-birthday-cake"></i>
+              <h3>1000+</h3>
+              <p>Special Moments Created</p>
+            </div>
+            <div class="milestone-card">
+              <i class="fas fa-users"></i>
+              <h3>500+</h3>
+              <p>Happy Customers</p>
+            </div>
+            <div class="milestone-card">
+              <i class="fas fa-star"></i>
+              <h3>4.9</h3>
+              <p>Customer Rating</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visual Side -->
+      <div class="visual-side">
+        <div class="image-grid">
+          <div class="grid-item main-image">
+            <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d" alt="Our Bakery">
+          </div>
+          <div class="grid-item">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Signature Cake">
+          </div>
+          <div class="grid-item">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff" alt="Baking Process">
+          </div>
+          <div class="floating-card">
+            <div class="card-content">
+              <i class="fas fa-quote-right"></i>
+              <p>"Crafting sweet memories, one cake at a time."</p>
+              <div class="founder-info">
+                <img src="images/.jpg" alt="Founder">
+                <div>
+                  <h4>Abhisar</h4>
+                  <span>Founder & Head Baker</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Values Section -->
+    <div class="values-container">
+      <div class="value-card">
+        <i class="fas fa-heart"></i>
+        <h3>Made with Love</h3>
+        <p>Every creation is crafted with passion and dedication</p>
+      </div>
+      <div class="value-card">
+        <i class="fas fa-award"></i>
+        <h3>Premium Quality</h3>
+        <p>Using only the finest ingredients for exceptional taste</p>
+      </div>
+      <div class="value-card">
+        <i class="fas fa-magic"></i>
+        <h3>Creative Design</h3>
+        <p>Unique and personalized designs for every occasion</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Process Section -->
+  <section class="process-section">
+    <div class="section-header">
+      <span class="section-subtitle">How We Work</span>
+      <h2 class="section-title">From Kitchen to Your Doorstep</h2>
+      <div class="title-separator">
+        <span class="separator-line"></span>
+        <i class="fas fa-mortar-pestle separator-icon"></i>
+        <span class="separator-line"></span>
+      </div>
+    </div>
+
+    <div class="process-container">
+      <!-- Step 1 -->
+      <div class="process-card">
+        <div class="step-number">01</div>
+        <div class="card-content">
+          <div class="icon-wrapper">
+            <i class="fas fa-pencil-alt"></i>
+          </div>
+          <h3>Place Your Order</h3>
+          <p>Choose from our delightful collection or customize your dream cake with our expert bakers.</p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check"></i>Easy online ordering</li>
+            <li><i class="fas fa-check"></i>Custom design options</li>
+            <li><i class="fas fa-check"></i>24/7 support</li>
+          </ul>
+        </div>
+        <div class="hover-effect"></div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="process-card">
+        <div class="step-number">02</div>
+        <div class="card-content">
+          <div class="icon-wrapper">
+            <i class="fas fa-hat-chef"></i>
+          </div>
+          <h3>Artisanal Baking</h3>
+          <p>Our master bakers craft your order with premium ingredients and meticulous attention to detail.</p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check"></i>Premium ingredients</li>
+            <li><i class="fas fa-check"></i>Skilled artisans</li>
+            <li><i class="fas fa-check"></i>Quality assurance</li>
+          </ul>
+        </div>
+        <div class="hover-effect"></div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="process-card">
+        <div class="step-number">03</div>
+        <div class="card-content">
+          <div class="icon-wrapper">
+            <i class="fas fa-clipboard-check"></i>
+          </div>
+          <h3>Quality Check</h3>
+          <p>Each creation undergoes thorough quality checks to ensure perfection in taste and presentation.</p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check"></i>Taste testing</li>
+            <li><i class="fas fa-check"></i>Design verification</li>
+            <li><i class="fas fa-check"></i>Safety standards</li>
+          </ul>
+        </div>
+        <div class="hover-effect"></div>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="process-card">
+        <div class="step-number">04</div>
+        <div class="card-content">
+          <div class="icon-wrapper">
+            <i class="fas fa-truck"></i>
+          </div>
+          <h3>Safe Delivery</h3>
+          <p>Carefully packaged and delivered to your doorstep with temperature-controlled vehicles.</p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check"></i>Secure packaging</li>
+            <li><i class="fas fa-check"></i>On-time delivery</li>
+            <li><i class="fas fa-check"></i>Live tracking</li>
+          </ul>
+        </div>
+        <div class="hover-effect"></div>
+      </div>
+    </div>
+
+    <!-- Process Timeline -->
+    <div class="process-timeline">
+      <div class="timeline-line"></div>
+      <div class="timeline-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="section-header">
+      <span class="section-subtitle">Sweet Words</span>
+      <h2 class="section-title">What Our Customers Say</h2>
+      <div class="title-separator">
+        <span class="separator-line"></span>
+        <i class="fas fa-heart separator-icon"></i>
+        <span class="separator-line"></span>
+      </div>
+    </div>
+
+    <div class="testimonials-container">
+      <!-- Testimonials Slider -->
+      <div class="testimonials-slider">
+        <!-- Existing testimonials will be loaded here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Premium Offers Section -->
+  <section class="offers-section">
+    <div class="section-header">
+      <span class="section-subtitle">Exclusive Deals</span>
+      <h2 class="section-title">Premium Offers</h2>
+      <div class="title-separator">
+        <span class="separator-line"></span>
+        <i class="fas fa-gem separator-icon"></i>
+        <span class="separator-line"></span>
+      </div>
+    </div>
+
+    <div class="offers-container">
+      <!-- Featured Offer -->
+      <div class="featured-offer">
+        <div class="offer-badge">
+          <i class="fas fa-crown"></i>
+          <span>Featured</span>
+        </div>
+        <div class="offer-content">
+          <h3>Wedding Collection</h3>
+          <p class="offer-description">Luxury wedding cakes with premium decorations</p>
+          <div class="offer-features">
+            <div class="feature">
+              <i class="fas fa-layer-group"></i>
+              <span>Multi-tier Options</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-palette"></i>
+              <span>Custom Design</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-truck"></i>
+              <span>Priority Delivery</span>
+            </div>
+          </div>
+          <div class="offer-price">
+            <div class="price-tag">
+              <span class="original">₹25,999</span>
+              <span class="discounted">19,999</span>
+            </div>
+            <span class="savings">Save ₹6,000</span>
+          </div>
+          <button class="claim-offer-btn">
+            <span>Claim Offer</span>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="offer-image">
+          <img src="path/to/wedding-cake.jpg" alt="Wedding Cake Collection">
+        </div>
+      </div>
+
+      <!-- Regular Offers Grid -->
+      <div class="offers-grid">
+        <!-- Premium Package -->
+        <div class="offer-card premium">
+          <div class="offer-tag">Most Popular</div>
+          <div class="offer-header">
+            <i class="fas fa-star"></i>
+            <h4>Premium Package</h4>
+            <p>Perfect for special occasions</p>
+          </div>
+          <div class="offer-details">
+            <ul class="offer-features-list">
+              <li><i class="fas fa-check"></i>2kg Custom Cake</li>
+              <li><i class="fas fa-check"></i>Premium Toppings</li>
+              <li><i class="fas fa-check"></i>Luxury Gift Box</li>
+              <li><i class="fas fa-check"></i>Free Delivery</li>
+            </ul>
+            <div class="offer-pricing">
+              <span class="price">₹2,499</span>
+              <span class="duration">Limited Time</span>
+            </div>
+          </div>
+          <button class="grab-offer-btn">Grab Offer</button>
+        </div>
+
+        <!-- Birthday Special -->
+        <div class="offer-card">
+          <div class="offer-header">
+            <i class="fas fa-birthday-cake"></i>
+            <h4>Birthday Special</h4>
+            <p>Make it memorable</p>
+          </div>
+          <div class="offer-details">
+            <ul class="offer-features-list">
+              <li><i class="fas fa-check"></i>1.5kg Theme Cake</li>
+              <li><i class="fas fa-check"></i>Party Accessories</li>
+              <li><i class="fas fa-check"></i>Candles Set</li>
+              <li><i class="fas fa-check"></i>Birthday Card</li>
+            </ul>
+            <div class="offer-pricing">
+              <span class="price">₹1,999</span>
+              <span class="duration">Valid for 24hrs</span>
+            </div>
+          </div>
+          <button class="grab-offer-btn">Grab Offer</button>
+        </div>
+
+        <!-- Seasonal Special -->
+        <div class="offer-card seasonal">
+          <div class="offer-tag">New</div>
+          <div class="offer-header">
+            <i class="fas fa-snowflake"></i>
+            <h4>Winter Special</h4>
+            <p>Seasonal flavors</p>
+          </div>
+          <div class="offer-details">
+            <ul class="offer-features-list">
+              <li><i class="fas fa-check"></i>Special Winter Cake</li>
+              <li><i class="fas fa-check"></i>Hot Chocolate Mix</li>
+              <li><i class="fas fa-check"></i>Festive Decorations</li>
+              <li><i class="fas fa-check"></i>Express Delivery</li>
+            </ul>
+            <div class="offer-pricing">
+              <span class="price">₹1,799</span>
+              <span class="duration">Seasonal Only</span>
+            </div>
+          </div>
+          <button class="grab-offer-btn">Grab Offer</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Countdown Timer -->
+    <div class="offer-countdown">
+      <div class="countdown-header">
+        <i class="fas fa-clock"></i>
+        <span>Offers End In</span>
+      </div>
+      <div class="countdown-timer">
+        <div class="time-block">
+          <span class="number" id="days">02</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="time-separator">:</div>
+        <div class="time-block">
+          <span class="number" id="hours">18</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="time-separator">:</div>
+        <div class="time-block">
+          <span class="number" id="minutes">45</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="time-separator">:</div>
+        <div class="time-block">
+          <span class="number" id="seconds">30</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer" id="contact">
+    <div class="footer-content">
+      <!-- Brand Section -->
+      <div class="footer-brand">
+        <div class="brand-signature">
+          <div class="brand-title">K.C BAKER'S</div>
+          <div class="brand-subtitle">by Chhavi Gupta</div>
+          <p class="brand-tagline">Crafting Sweet Memories Since 2021</p>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="Pinterest">
+            <i class="fab fa-pinterest"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-links">
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#custom-order">Custom Orders</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">Birthday Cakes</a></li>
+            <li><a href="#">Wedding Cakes</a></li>
+            <li><a href="#">Pastries</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Gift Hampers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <ul class="contact-info">
+            <li>
+              <i class="fas fa-phone"></i>
+              <span>+91 98765 43210</span>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <span>hello@kcbakers.in</span>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>123 Baker Street, New Delhi, India</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+   
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <p class="copyright">© 2024 K.C BAKER'S. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Refund Policy</a>
+        </div>
+        <div class="payment-methods">
+          <i class="fab fa-cc-visa"></i>
+          <i class="fab fa-cc-mastercard"></i>
+          <i class="fab fa-google-pay"></i>
+          <i class="fas fa-money-bill-wave"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+    const body = document.body;
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+      body.style.overflow = navMenu.classList.contains("active")
+        ? "hidden"
+        : "auto";
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener("click", (e) => {
+      if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+        body.style.overflow = "auto";
+      }
+    });
+
+    // Close menu when clicking a nav link
+    document.querySelectorAll(".nav-link").forEach((link) => {
+      link.addEventListener("click", () => {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+        body.style.overflow = "auto";
+      });
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      // Enhanced Wishlist functionality
+      const wishlistBtns = document.querySelectorAll(".wishlist-btn");
+      wishlistBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          btn.classList.toggle("active");
+          const icon = btn.querySelector("i");
+          icon.classList.toggle("far");
+          icon.classList.toggle("fas");
+
+          if (btn.classList.contains("active")) {
+            // Show success message
+            showToast("Added to wishlist!");
+          }
+        });
+      });
+
+      // Enhanced Share functionality
+      const shareBtns = document.querySelectorAll(".share-btn");
+      shareBtns.forEach((btn) => {
+        btn.addEventListener("click", async () => {
+          try {
+            if (navigator.share) {
+              await navigator.share({
+                title: "Check out this amazing product!",
+                text: "I found this amazing product at K.C Baker's",
+                url: window.location.href,
+              });
+            } else {
+              // Fallback
+              showToast("Share feature coming soon!");
+            }
+          } catch (err) {
+            console.log("Error sharing:", err);
+          }
+        });
+      });
+
+      // Toast notification function
+      function showToast(message) {
+        const toast = document.createElement("div");
+        toast.className = "toast";
+        toast.textContent = message;
+        document.body.appendChild(toast);
+
+        setTimeout(() => {
+          toast.classList.add("show");
+        }, 100);
+
+        setTimeout(() => {
+          toast.classList.remove("show");
+          setTimeout(() => {
+            document.body.removeChild(toast);
+          }, 300);
+        }, 3000);
+      }
+    });
+
+    // Load More Functionality
+    const loadMoreBtn = document.querySelector(".load-more-btn");
+    let currentItems = 6;
+
+    loadMoreBtn.addEventListener("click", () => {
+      const products = [...document.querySelectorAll(".product-card")];
+      const hiddenProducts = products.slice(currentItems);
+
+      for (let i = 0; i < 3 && i < hiddenProducts.length; i++) {
+        hiddenProducts[i].style.display = "block";
+        hiddenProducts[i].style.animation = "fadeIn 0.5s ease-out";
+      }
+
+      currentItems += 3;
+
+      if (currentItems >= products.length) {
+        loadMoreBtn.style.display = "none";
+      }
+    });
+    // Add this to your existing script section
+    document.addEventListener("DOMContentLoaded", function () {
+      // Category filtering
+      const categoryBtns = document.querySelectorAll(".tab-btn");
+      const productCards = document.querySelectorAll(".product-card");
+
+      categoryBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          // Remove active class from all buttons
+          categoryBtns.forEach((b) => b.classList.remove("active"));
+          // Add active class to clicked button
+          btn.classList.add("active");
+
+          const category = btn.dataset.category;
+
+          productCards.forEach((card) => {
+            if (category === "all" || card.dataset.category === category) {
+              card.style.display = "block";
+              card.style.animation = "fadeIn 0.5s ease-out";
+            } else {
+              card.style.display = "none";
+            }
+          });
+        });
+      });
+    });
+  </script>
+
+  <script>
+    // Custom Order Builder Functionality
+    class CustomOrderBuilder {
+      constructor() {
+        // Initialize state
+        this.state = {
+          size: {
+            selected: 'size1',
+            price: 899
+          },
+          flavor: {
+            selected: 'vanilla',
+            price: 0
+          },
+          design: {
+            selected: 'classic',
+            price: 0
+          },
+          addons: new Set(),
+          totalPrice: 899
+        };
+
+        // Cache DOM elements
+        this.elements = {
+          preview: document.getElementById('cakePreview'),
+          priceDisplay: document.querySelector('.price-amount'),
+          tabButtons: document.querySelectorAll('.builder-tabs .tab-btn'),
+          optionGroups: document.querySelectorAll('.option-group'),
+          sizeInputs: document.querySelectorAll('input[name="size"]'),
+          flavorInputs: document.querySelectorAll('input[name="flavor"]'),
+          designCards: document.querySelectorAll('.design-card'),
+          addonInputs: document.querySelectorAll('.addon-card input[type="checkbox"]'),
+          uploadArea: document.getElementById('uploadArea'),
+          designUpload: document.getElementById('designUpload'),
+          saveDesignBtn: document.getElementById('saveDesign'),
+          proceedOrderBtn: document.getElementById('proceedOrder'),
+          uploadBtn: document.getElementById('uploadBtn'),
+        };
+
+        this.initializeEventListeners();
+      }
+
+      initializeEventListeners() {
+        // Tab switching
+        this.elements.tabButtons.forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const tabName = btn.getAttribute('data-tab');
+            this.switchTab(tabName);
+          });
+        });
+
+        // Size selection
+        this.elements.sizeInputs.forEach(input => {
+          input.addEventListener('change', () => this.updateSize(input));
+        });
+
+        // Flavor selection
+        this.elements.flavorInputs.forEach(input => {
+          input.addEventListener('change', () => this.updateFlavor(input));
+        });
+
+        // Design selection
+        this.elements.designCards.forEach(card => {
+          card.addEventListener('click', () => this.updateDesign(card));
+        });
+
+        // Add-ons selection
+        this.elements.addonInputs.forEach(input => {
+          input.addEventListener('change', () => this.updateAddons(input));
+        });
+
+        // File upload handling
+        this.elements.uploadArea.addEventListener('dragover', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          this.elements.uploadArea.classList.add('dragover');
+        });
+
+        this.elements.uploadArea.addEventListener('dragleave', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          this.elements.uploadArea.classList.remove('dragover');
+        });
+
+        this.elements.uploadArea.addEventListener('drop', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          this.elements.uploadArea.classList.remove('dragover');
+          const file = e.dataTransfer.files[0];
+          this.handleFileUpload(file);
+        });
+
+        // Add click handler for upload button
+        this.elements.uploadBtn.addEventListener('click', () => {
+          this.elements.designUpload.click();
+        });
+
+        this.elements.designUpload.addEventListener('change', (e) => {
+          const file = e.target.files[0];
+          this.handleFileUpload(file);
+        });
+
+        // Action buttons
+        this.elements.saveDesignBtn.addEventListener('click', () => this.saveDesign());
+        this.elements.proceedOrderBtn.addEventListener('click', () => this.proceedToOrder());
+      }
+
+      switchTab(tabName) {
+        // Remove active class from all tabs and groups
+        this.elements.tabButtons.forEach(btn => {
+          btn.classList.remove('active');
+          if (btn.getAttribute('data-tab') === tabName) {
+            btn.classList.add('active');
+          }
+        });
+
+        // Hide all option groups
+        this.elements.optionGroups.forEach(group => {
+          group.classList.remove('active');
+          if (group.getAttribute('data-group') === tabName) {
+            group.classList.add('active');
+          }
+        });
+      }
+
+      updateSize(input) {
+        const prices = { size1: 899, size2: 1699, size3: 2499 };
+        this.state.size = {
+          selected: input.id,
+          price: prices[input.id]
+        };
+        this.updateTotalPrice();
+        this.updatePreview();
+      }
+
+      updateFlavor(input) {
+        const prices = { vanilla: 0, chocolate: 100, redvelvet: 150, butterscotch: 200 };
+        this.state.flavor = {
+          selected: input.id,
+          price: prices[input.id]
+        };
+        this.updateTotalPrice();
+        this.updatePreview();
+      }
+
+      updateDesign(card) {
+        this.elements.designCards.forEach(c => c.classList.remove('active'));
+        card.classList.add('active');
+
+        this.state.design = {
+          selected: card.querySelector('h5').textContent.toLowerCase(),
+          price: parseInt(card.dataset.price) || 0
+        };
+        this.updateTotalPrice();
+        this.updatePreview();
+      }
+
+      updateAddons(input) {
+        const price = parseInt(input.closest('.addon-card').dataset.price);
+        if (input.checked) {
+          this.state.addons.add({ id: input.id, price });
+        } else {
+          this.state.addons.delete({ id: input.id, price });
+        }
+        this.updateTotalPrice();
+      }
+
+      updateTotalPrice() {
+        const addonsTotal = Array.from(this.state.addons).reduce((sum, addon) => sum + addon.price, 0);
+        this.state.totalPrice = this.state.size.price +
+          this.state.flavor.price +
+          this.state.design.price +
+          addonsTotal;
+
+        this.elements.priceDisplay.textContent = `₹${this.state.totalPrice.toLocaleString()}`;
+      }
+
+      handleFileUpload(file) {
+        if (!file) return;
+
+        // Validate file type
+        const validTypes = ['image/jpeg', 'image/png', 'image/gif'];
+        if (!validTypes.includes(file.type)) {
+          this.showToast('Please upload a valid image file (JPEG, PNG, or GIF)');
+          return;
+        }
+
+        // Validate file size (max 5MB)
+        const maxSize = 5 * 1024 * 1024; // 5MB in bytes
+        if (file.size > maxSize) {
+          this.showToast('File size should be less than 5MB');
+          return;
+        }
+
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          // Update preview image
+          this.elements.preview.src = e.target.result;
+
+          // Update upload area to show success state
+          this.elements.uploadArea.innerHTML = `
+            <i class="fas fa-check-circle" style="color: #28a745;"></i>
+            <p>Image uploaded successfully!</p>
+            <p class="file-name">${file.name}</p>
+            <button type="button" class="upload-btn" id="changeBtn">Change Image</button>
+          `;
+
+          // Add click handler for change button
+          document.getElementById('changeBtn').addEventListener('click', () => {
+            this.elements.designUpload.click();
+          });
+
+          this.showToast('Design reference uploaded successfully!');
+        };
+
+        reader.onerror = () => {
+          this.showToast('Error uploading file. Please try again.');
+        };
+
+        reader.readAsDataURL(file);
+      }
+
+      showToast(message) {
+        const toast = document.createElement('div');
+        toast.className = 'toast';
+        toast.textContent = message;
+        document.body.appendChild(toast);
+
+        setTimeout(() => toast.classList.add('show'), 100);
+        setTimeout(() => {
+          toast.classList.remove('show');
+          setTimeout(() => toast.remove(), 300);
+        }, 3000);
+      }
+
+      saveDesign() {
+        // Implement save functionality (e.g., to localStorage or backend)
+        const savedDesign = {
+          ...this.state,
+          timestamp: new Date().toISOString()
+        };
+        localStorage.setItem('savedCakeDesign', JSON.stringify(savedDesign));
+        this.showToast('Design saved successfully!');
+      }
+
+      proceedToOrder() {
+        // Implement order processing logic
+        console.log('Order details:', this.state);
+        this.showToast('Proceeding to checkout...');
+        // Add your checkout logic here
+      }
+
+      updatePreview() {
+        // Update preview image based on selections
+        // This is a simplified example - you would need actual images for different combinations
+        const previewImages = {
+          size1: {
+            vanilla: 'path/to/vanilla-small.jpg',
+            chocolate: 'path/to/chocolate-small.jpg',
+            // ... add more combinations
+          },
+          // ... add more size combinations
+        };
+
+        const imagePath = previewImages[this.state.size.selected]?.[this.state.flavor.selected];
+        if (imagePath) {
+          this.elements.preview.src = imagePath;
+        }
+      }
+    }
+
+    // Initialize the Custom Order Builder when the DOM is loaded
+    document.addEventListener('DOMContentLoaded', () => {
+      const orderBuilder = new CustomOrderBuilder();
+
+      // Show first tab by default
+      const firstTab = document.querySelector('.tab-btn[data-tab="size"]');
+      if (firstTab) {
+        orderBuilder.switchTab('size');
+      }
+    });
+
+  </script>
+
+  <script>
+   
+    document.addEventListener('DOMContentLoaded', function() {
+      // Static reviews
+      const testimonials = [
+        {
+          id: 1,
+          name: "Priya Sharma",
+          rating: 5,
+          text: "Absolutely in love with KC Baker's Red Velvet cake! Chhavi's attention to detail and the perfect balance of flavors made my daughter's birthday extra special. The cream cheese frosting was divine! 💝",
+          photo: "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b",
+          date: "2024-03-15T10:30:00Z"
+        },
+        {
+          id: 2,
+          name: "Rahul Verma",
+          rating: 5,
+          text: "Ordered the Belgian Chocolate cake for my anniversary and it exceeded all expectations! Chhavi's craftsmanship is outstanding. The cake was moist, rich, and the presentation was Instagram-worthy! Will definitely order again. 🎂✨",
+          photo: "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+          date: "2024-03-10T15:45:00Z"
+        },
+        {
+          id: 3,
+          name: "Anita Patel",
+          rating: 5,
+          text: "The customized birthday hamper from KC Baker's was the highlight of our celebration! Chhavi's personal touch and the variety of pastries were amazing. The chocolate chip cookies are simply addictive! Thank you for making our day memorable. ",
+          photo: "https://images.unsplash.com/photo-1557308536-ee471ef2c390",
+          date: "2024-03-05T09:15:00Z"
+        },
+        {
+          id: 4,
+          name: "Amit Khanna",
+          rating: 5,
+          text: "First time trying KC Baker's Butterscotch cake and I'm blown away! Chhavi's recipe is unique and the freshness of ingredients really shows. The caramel work is exceptional. This is now our family's go-to bakery! 🌟",
+          photo: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d",
+          date: "2024-02-28T14:20:00Z"
+        }
+      ];
+
+      const testimonialSlider = document.querySelector('.testimonials-slider');
+
+      // Create testimonial cards
+      testimonialSlider.innerHTML = testimonials.map(review => {
+        const stars = Array(5).fill('').map((_, i) => 
+          `<i class="fas fa-star${i < review.rating ? '' : '-half-alt'}" style="color: #f1c40f;"></i>`
+        ).join('');
+
+        return `
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="reviewer-avatar">
+                <img src="https://ui-avatars.com/api/?name=${encodeURIComponent(review.name)}&background=e74c3c&color=fff" alt="${review.name}">
+              </div>
+              <div class="reviewer-info">
+                <h4>${review.name}</h4>
+                <span class="review-date">${new Date(review.date).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}</span>
+              </div>
+            </div>
+            <div class="review-rating">
+              ${stars}
+            </div>
+            <p class="review-text">${review.text}</p>
+            ${review.photo ? `
+              <div class="review-image">
+                <img src="${review.photo}" alt="Review photo by ${review.name}" loading="lazy">
+              </div>
+            ` : ''}
+          </div>
+        `;
+      }).join('');
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // DOM Elements
+      const modal = document.getElementById('reviewModal');
+      const addReviewBtn = document.getElementById('addReviewBtn');
+      const closeModalBtn = document.getElementById('closeModal');
+      const reviewForm = document.getElementById('reviewForm');
+      const ratingStars = document.querySelectorAll('.rating-input i');
+      const photoInput = document.getElementById('reviewPhoto');
+      const uploadArea = document.getElementById('reviewUploadArea');
+      const previewPhoto = document.getElementById('previewPhoto');
+
+      // Open modal
+      addReviewBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        modal.style.display = 'flex';
+        setTimeout(() => {
+          modal.classList.add('active');
+        }, 10);
+      });
+
+      // Close modal
+      function closeModal() {
+        modal.classList.remove('active');
+        setTimeout(() => {
+          modal.style.display = 'none';
+          reviewForm.reset();
+          resetRating();
+          previewPhoto.style.display = 'none';
+          previewPhoto.innerHTML = '';
+        }, 300);
+      }
+
+      closeModalBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        closeModal();
+      });
+
+      // Close modal when clicking outside
+      window.addEventListener('click', function(e) {
+        if (e.target === modal) {
+          closeModal();
+        }
+      });
+
+      // Handle rating stars
+      ratingStars.forEach(star => {
+        star.addEventListener('click', function() {
+          const rating = this.dataset.rating;
+          ratingStars.forEach(s => {
+            s.classList.remove('fas', 'active');
+            s.classList.add('far');
+            if (s.dataset.rating <= rating) {
+              s.classList.remove('far');
+              s.classList.add('fas', 'active');
+            }
+          });
+        });
+      });
+
+      // Handle photo upload
+      uploadArea.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        // Instead of opening file manager, show preview of upload area
+        const imagePreview = document.createElement('div');
+        imagePreview.className = 'image-preview-overlay';
+        imagePreview.innerHTML = `
+          <div class="image-preview-content">
+            <i class="fas fa-camera"></i>
+            <p>Choose a photo to upload</p>
+            <button class="upload-photo-btn">Select Photo</button>
+          </div>
+        `;
+        
+        document.body.appendChild(imagePreview);
+        
+        // Handle the custom upload button click
+        imagePreview.querySelector('.upload-photo-btn').addEventListener('click', function() {
+          photoInput.click();
+          imagePreview.remove();
+        });
+        
+        // Close preview on background click
+        imagePreview.addEventListener('click', function(e) {
+          if (e.target === imagePreview) {
+            imagePreview.remove();
+          }
+        });
+      });
+
+      photoInput.addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (file) {
+          // Validate file type
+          const validTypes = ['image/jpeg', 'image/png', 'image/gif'];
+          if (!validTypes.includes(file.type)) {
+            showToast('Please upload a valid image file (JPEG, PNG, or GIF)');
+            return;
+          }
+
+          // Validate file size (max 5MB)
+          const maxSize = 5 * 1024 * 1024;
+          if (file.size > maxSize) {
+            showToast('File size should be less than 5MB');
+            return;
+          }
+
+          const reader = new FileReader();
+          reader.onload = function(e) {
+            previewPhoto.style.display = 'block';
+            previewPhoto.innerHTML = `
+              <div class="preview-image-container">
+                <img src="${e.target.result}" alt="Preview">
+                <button type="button" class="remove-photo">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            `;
+
+            // Add remove photo functionality
+            document.querySelector('.remove-photo').addEventListener('click', function(e) {
+              e.stopPropagation();
+              photoInput.value = '';
+              previewPhoto.style.display = 'none';
+              previewPhoto.innerHTML = '';
+            });
+          };
+
+          reader.readAsDataURL(file);
+        }
+      });
+
+      // Handle form submission
+      reviewForm.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const rating = document.querySelectorAll('.rating-input i.active').length;
+        if (rating === 0) {
+          alert('Please select a rating');
+          return;
+        }
+
+        const newReview = {
+          id: Date.now(),
+          name: document.getElementById('reviewName').value,
+          rating,
+          text: document.getElementById('reviewText').value,
+          date: new Date().toISOString()
+        };
+
+        if (photoInput.files[0]) {
+          const reader = new FileReader();
+          reader.onload = async function(e) {
+            newReview.photo = e.target.result;
+            await saveReview(newReview);
+          };
+          reader.readAsDataURL(photoInput.files[0]);
+        } else {
+          await saveReview(newReview);
+        }
+      });
+
+      async function saveReview(review) {
+        const reviews = JSON.parse(localStorage.getItem('testimonials')) || [];
+        reviews.unshift(review);
+        localStorage.setItem('testimonials', JSON.stringify(reviews));
+        
+        loadTestimonials();
+        closeModal();
+        showToast('Thank you for your review!');
+      }
+
+      function resetRating() {
+        ratingStars.forEach(star => {
+          star.classList.remove('fas', 'active');
+          star.classList.add('far');
+        });
+      }
+
+      function showToast(message) {
+        const toast = document.createElement('div');
+        toast.className = 'toast';
+        toast.textContent = message;
+        document.body.appendChild(toast);
+
+        setTimeout(() => toast.classList.add('show'), 100);
+        setTimeout(() => {
+          toast.classList.remove('show');
+          setTimeout(() => toast.remove(), 300);
+        }, 3000);
+      }
+
+      // Initialize
+      loadTestimonials();
+    });
+  </script>
+  <script src="script.js"></script>
+ 
+  <button id="backToTopBtn" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+  <script>
+  // Back to Top Button functionality
+  const backToTopBtn = document.getElementById('backToTopBtn');
+
+  // Show button when scrolling down 100px
+  window.onscroll = function() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      backToTopBtn.style.display = "block";
+      backToTopBtn.style.opacity = "1";
+    } else {
+      backToTopBtn.style.opacity = "0";
+      setTimeout(() => {
+        backToTopBtn.style.display = "none";
+      }, 300);
+    }
+  };
+
+  // Scroll to top when button clicked
+  backToTopBtn.onclick = function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+  </script>
+
+  <script>
+    // Add this to your existing script section
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          // Close mobile menu if open
+          const hamburger = document.querySelector(".hamburger");
+          const navMenu = document.querySelector(".nav-menu");
+          if (navMenu.classList.contains("active")) {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+            document.body.style.overflow = "auto";
+          }
+          
+          // Smooth scroll to target
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+    class SmoothScroll {
+  constructor() {
+    // Initialize scroll offset to account for fixed header
+    this.offset = 80; // Adjust based on your header height
+    this.duration = 1000; // Scroll animation duration in milliseconds
+    this.menuLinks = document.querySelectorAll('a[href^="#"]');
+    this.hamburger = document.querySelector(".hamburger");
+    this.navMenu = document.querySelector(".nav-menu");
+    
+    // Initialize
+    this.init();
+  }
+
+  init() {
+    // Add click event listeners to all menu links
+    this.menuLinks.forEach(link => {
+      link.addEventListener('click', (e) => this.handleClick(e));
+    });
+
+    // Add scroll spy functionality
+    window.addEventListener('scroll', () => this.updateActiveMenuItem());
+  }
+
+  handleClick(e) {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute('href');
+    const targetSection = document.querySelector(targetId);
+
+    if (targetSection) {
+      // Close mobile menu if open
+      if (this.navMenu.classList.contains("active")) {
+        this.hamburger.classList.remove("active");
+        this.navMenu.classList.remove("active");
+        document.body.style.overflow = "auto";
+      }
+
+      // Add click animation to menu item
+      e.currentTarget.classList.add('menu-item-clicked');
+      setTimeout(() => {
+        e.currentTarget.classList.remove('menu-item-clicked');
+      }, 300);
+
+      // Calculate scroll position
+      const targetPosition = targetSection.offsetTop - this.offset;
+      const startPosition = window.pageYOffset;
+      const distance = targetPosition - startPosition;
+      let startTime = null;
+
+      // Smooth scroll animation
+      const animation = (currentTime) => {
+        if (startTime === null) startTime = currentTime;
+        const timeElapsed = currentTime - startTime;
+        const progress = Math.min(timeElapsed / this.duration, 1);
+
+        // Easing function for smooth acceleration and deceleration
+        const ease = this.easeInOutCubic(progress);
+        
+        window.scrollTo(0, startPosition + (distance * ease));
+
+        if (timeElapsed < this.duration) {
+          requestAnimationFrame(animation);
+        } else {
+          // Show section entrance animation
+          this.animateSection(targetSection);
+        }
+      };
+
+      requestAnimationFrame(animation);
+    }
+  }
+
+  // Easing function for smooth scroll
+  easeInOutCubic(t) {
+    return t < 0.5 
+      ? 4 * t * t * t 
+      : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  }
+
+  // Update active menu item based on scroll position
+  updateActiveMenuItem() {
+    const fromTop = window.scrollY + this.offset + 100;
+
+    this.menuLinks.forEach(link => {
+      const section = document.querySelector(link.hash);
+      
+      if (section) {
+        const sectionTop = section.offsetTop - this.offset;
+        const sectionBottom = sectionTop + section.offsetHeight;
+
+        // Check if section is in viewport
+        if (fromTop >= sectionTop && fromTop <= sectionBottom) {
+          // Remove active class from all links
+          this.menuLinks.forEach(el => el.classList.remove('active'));
+          
+          // Add active class to current link
+          link.classList.add('active');
+
+          // Update URL hash without scrolling
+          history.replaceState(null, null, link.hash);
+        }
+      }
+    });
+  }
+
+  // Animate section entrance
+  animateSection(section) {
+    const elements = section.querySelectorAll('.animate-on-scroll');
+    elements.forEach((el, index) => {
+      setTimeout(() => {
+        el.classList.add('animate-in');
+      }, index * 150); // Stagger animation
+    });
+  }
+}
+
+// Initialize smooth scroll when DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+  new SmoothScroll();
+
+  // Add intersection observer for section animations
+  const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.1
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('section-visible');
+        observer.unobserve(entry.target); // Stop observing once animated
+      }
+    });
+  }, observerOptions);
+
+  // Observe all sections
+  document.querySelectorAll('section').forEach(section => {
+    observer.observe(section);
+  });
+});
+  </script>
+</body>
+</html>
