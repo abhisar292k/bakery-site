@@ -23,11 +23,16 @@ A beautifully designed bakery website showcasing delicious baked goods. Built us
 - **HTML5** – Structuring the content.  
 - **CSS3** – Styling and animations.  
 - **Bootstrap** – Responsive design and layout.  
-- **JavaScript (Optional - if used)** – Enhancing interactivity.  
+- **JavaScript** – Enhancing interactivity.  
 
 ---
 
-## **📷 Screenshots** *(Add some images of your website here)*  
+## **📷 Screenshots** *(![image](https://github.com/user-attachments/assets/6329f045-b1bc-4aa0-ae3d-066b2928f594) ![image](https://github.com/user-attachments/assets/27e6fdd5-4a40-4b57-9f84-acb8535996a5)
+![image](https://github.com/user-attachments/assets/95ae88bc-0ec2-4732-84ab-dd7e5076295a)
+![image](https://github.com/user-attachments/assets/e25b8b20-c10f-4421-b0be-59e07d6c30bc)
+
+
+)*  
 
 ---
 
